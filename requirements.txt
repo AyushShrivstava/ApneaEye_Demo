@@ -1,0 +1,15 @@
+# Python package requirements for ApneaEye_Demo
+# Notes:
+# - ffmpeg is required as a system dependency (not a Python package).
+# - Choose the appropriate torch wheel for your platform (CPU vs CUDA) if needed.
+
+ultralytics>=8.0.0
+torch>=2.0.0
+opencv-python>=4.7.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Optional (uncomment if needed)
+# pillow>=9.0.0
